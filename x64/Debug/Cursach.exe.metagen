@@ -1,0 +1,105 @@
+  Cursach.AdminForm.resources - Embedded, ContainedInManifestFile, 
+  Cursach.AuthForm.resources - Embedded, ContainedInManifestFile, 
+  Cursach.ClientApplicationForm.resources - Embedded, ContainedInManifestFile, 
+  Cursach.GeneralForm.resources - Embedded, ContainedInManifestFile, 
+  Cursach.OrderForm.resources - Embedded, ContainedInManifestFile, 
+  Cursach.RegisterForm.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly Cursach, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Messaging, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms.DataVisualization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class Human: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String, System.String, System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    setName(String): PrivateScope, Public, HideBySig
+    setSurname(String): PrivateScope, Public, HideBySig
+    setEmail(String): PrivateScope, Public, HideBySig
+    setPhone(String): PrivateScope, Public, HideBySig
+    setPassportId(String): PrivateScope, Public, HideBySig
+    setMoney(Int32): PrivateScope, Public, HideBySig
+    getName(): PrivateScope, Public, HideBySig
+    getSurname(): PrivateScope, Public, HideBySig
+    getEmail(): PrivateScope, Public, HideBySig
+    getPhone(): PrivateScope, Public, HideBySig
+    getPassportId(): PrivateScope, Public, HideBySig
+    getMoney(): PrivateScope, Public, HideBySig
+    getFullName(): PrivateScope, Public, HideBySig
+Class Clients: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :Human
+    Void .ctor(System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.String, System.String, System.String, System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    setLogin(String): PrivateScope, Public, HideBySig
+    setPassword(String): PrivateScope, Public, HideBySig
+    getClient(): PrivateScope, Public, HideBySig
+    getLogin(): PrivateScope, Public, HideBySig
+    getPassword(): PrivateScope, Public, HideBySig
+    getIsAdmin(): PrivateScope, Public, HideBySig
+    getInfoForOrder(): PrivateScope, Public, HideBySig
+    isAdmin(): PrivateScope, Public, HideBySig
+    op_Decrement(Int32): PrivateScope, Public, HideBySig, SpecialName
+    op_Increment(Int32): PrivateScope, Public, HideBySig, SpecialName
+    op_Assign(Clients): PrivateScope, Public, HideBySig, SpecialName
+Class ViewCars: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Int32, System.String, System.String, System.String, System.String, Int32, Boolean): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 id : Public
+    System.String brand : Public
+    System.String model : Public
+    System.String color : Public
+    System.String year : Public
+    Int32 price : Public
+    Boolean is_rent : Public
+  Methods:
+    getFullInfo(): PrivateScope, Public, HideBySig
+    getInfoForList(): PrivateScope, Public, HideBySig
+Class Cursach.AdminForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Administrator, System.Windows.Forms.Form): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.Form form_auth : Public
+    Administrator admin : Public
+Class Cursach.RegisterForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Cursach.OrderForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Int32, Clients): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Clients client : Public
+    Catalog catalog : Public
+    Int32 number_of_car : Public
+Class Cursach.ClientApplicationForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Cursach.GeneralForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Clients, System.Windows.Forms.Form): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Clients client : Public
+    System.Windows.Forms.Form form_auth : Public
+    Cars cars : Public
+    Catalog catalog : Public
+Class Cursach.AuthForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName

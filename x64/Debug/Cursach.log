@@ -1,0 +1,3 @@
+﻿  Source.cpp
+H:\University\Programming\Kurs 2\Cursach\Source.cpp(37,17): error C2059: syntax error: '&'
+H:\University\Programming\Kurs 2\Cursach\Source.cpp(37,21): error C2805: binary 'operator =' has too few parameters

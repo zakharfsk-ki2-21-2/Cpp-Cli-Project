@@ -1,0 +1,10 @@
+H:\University\Programming\Kurs 2\Cursach\x64\Debug\Cursach.vcxproj.AssemblyReference.cache
+H:\University\Programming\Kurs 2\Cursach\x64\Debug\Cursach.vcxproj.SuggestedBindingRedirects.cache
+H:\University\Programming\Kurs 2\Cursach\x64\Debug\Cursach.exe
+H:\University\Programming\Kurs 2\Cursach\x64\Debug\Cursach.GeneralForm.resources
+H:\University\Programming\Kurs 2\Cursach\x64\Debug\Cursach.vcxproj.GenerateResource.cache
+H:\University\Programming\Kurs 2\Cursach\x64\Debug\Cursach.AuthForm.resources
+H:\University\Programming\Kurs 2\Cursach\x64\Debug\Cursach.RegisterForm.resources
+H:\University\Programming\Kurs 2\Cursach\x64\Debug\Cursach.OrderForm.resources
+H:\University\Programming\Kurs 2\Cursach\x64\Debug\Cursach.ClientApplicationForm.resources
+H:\University\Programming\Kurs 2\Cursach\x64\Debug\Cursach.AdminForm.resources
